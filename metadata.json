@@ -1,0 +1,6 @@
+{
+  "name": "Vocins AI",
+  "description": "Generates downloadable AI-designed background audio, vocal ambience, and cinematic sound effects from scripts, timelines, and stories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
