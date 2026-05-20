@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.FileProvider
 import androidx.compose.foundation.Image
 import androidx.compose.ui.res.painterResource
+import coil.compose.AsyncImage
 import com.example.R
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.example.api.SceneBlueprint
@@ -131,8 +132,8 @@ fun HomeScreen(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Image(
-                        painter = painterResource(id = R.drawable.img_honeycomb_plant_1779304950968),
+                    AsyncImage(
+                        model = R.drawable.img_honeycomb_plant_1779304950968,
                         contentDescription = "Vocins App Icon",
                         modifier = Modifier
                             .size(38.dp)
